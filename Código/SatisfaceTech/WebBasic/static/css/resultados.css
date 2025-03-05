@@ -1,0 +1,112 @@
+/* Estilos base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f3;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #517b94;
+    color: white;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Contenedor de botones para separación */
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espacio entre botones */
+}
+
+/* Estilos de botones con colores diferenciados */
+.btn {
+    padding: 8px 12px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Botón "Ver" */
+.btn-info {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: #117a8b;
+}
+
+/* Botón "Actualizar" */
+.btn-warning {
+    background-color: #ffc107;
+    color: black;
+}
+
+.btn-warning:hover {
+    background-color: #d39e00;
+}
+
+/* Botón "Eliminar" */
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #a71d2a;
+}
+
+/* Estilo del botón de regreso con flecha */
+.btn-back {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: color 0.3s;
+}
+
+.btn-back:hover {
+    color: #0056b3;
+}
+
+/* Estilo de la flecha */
+.arrow-left {
+    font-size: 20px;
+    margin-right: 8px;
+}
