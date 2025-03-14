@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #304352;
+    background: -webkit-linear-gradient(to right, #d7d2cc, #304352);
+    background: linear-gradient(to right, #d7d2cc, #304352);
+}
+
+.card {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgb(236, 236, 236);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #555;
+    text-align: center;
+}
+
+h5 {
+    color: #444;
+    margin-top: 20px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+h3 {
+    text-align: center;
+}
+
+/* Alinear etiquetas y campos del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mb-3 {
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botón de envío */
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo del botón de regreso con flecha */
+.btn-back {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: color 0.3s;
+}
+
+.btn-back:hover {
+    color: #0056b3;
+}
+
+/* Estilo de la flecha */
+.arrow-left {
+    font-size: 20px;
+    margin-right: 8px;
+}
