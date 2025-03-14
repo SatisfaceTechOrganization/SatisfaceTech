@@ -4,6 +4,6 @@ Este repositorio contiene el código fuente de SatisfaceTech, una aplicación we
 
 Tecnologías utilizadas:
 
-Frontend: (HTML con boostrap)
+Frontend: (HTML con Css puro)
 Backend: (Phyton)
 Base de datos: (MongoDB)
